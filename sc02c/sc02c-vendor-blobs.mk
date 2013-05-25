@@ -12,19 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
+LOCAL_PATH := $(LOCAL_PATH)
+
 PRODUCT_COPY_FILES := \
-    vendor/samsung/sc02c/proprietary/system/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/sc02c/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
+    $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sc02c/proprietary/system/bin/rild:system/bin/rild \
-    vendor/samsung/sc02c/proprietary/system/bin/hostapd:system/bin/hostapd \
-    vendor/samsung/sc02c/proprietary/system/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/sc02c/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/sc02c/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/sc02c/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
-    vendor/samsung/sc02c/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
-    vendor/samsung/sc02c/proprietary/system/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/sc02c/proprietary/system/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
-    vendor/samsung/sc02c/proprietary/system/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
+    $(LOCAL_PATH)/proprietary/system/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf
