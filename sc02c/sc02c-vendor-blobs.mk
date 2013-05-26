@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(LOCAL_PATH)
+LOCAL_PATH := vendor/samsung/sc02c
 
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
