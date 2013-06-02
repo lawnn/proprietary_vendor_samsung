@@ -44,6 +44,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d2dcm/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/train.png:system/etc/felica/train.png \
-	vendor/samsung/d2dcm/proprietary/app/WAPPushManager.apk:system/app/WAPPushManager.apk
+	vendor/samsung/d2dcm/proprietary/app/WAPPushManager.apk:system/app/WAPPushManager.apk \
         vendor/samsung/d2dcm/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
         vendor/samsung/d2dcm/proprietary/lib/libril.so:system/lib/libril.so
