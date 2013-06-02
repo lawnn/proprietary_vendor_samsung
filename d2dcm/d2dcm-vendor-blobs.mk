@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
 	vendor/samsung/d2dcm/proprietary/etc/wifi/nvram_mfg.txt_murata_b2:system/etc/wifi/nvram_mfg.txt_murata_b2 \
 	vendor/samsung/d2dcm/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
-	vendor/samsung/d2dcm/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
 	vendor/samsung/d2dcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
 	vendor/samsung/d2dcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
 	vendor/samsung/d2dcm/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
@@ -45,5 +44,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d2dcm/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/train.png:system/etc/felica/train.png \
+	vendor/samsung/d2dcm/proprietary/app/WAPPushManager.apk:system/app/WAPPushManager.apk
         vendor/samsung/d2dcm/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
         vendor/samsung/d2dcm/proprietary/lib/libril.so:system/lib/libril.so
