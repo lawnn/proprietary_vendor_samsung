@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celoxdcm/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
 	vendor/samsung/celoxdcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
 	vendor/samsung/celoxdcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
-	vendor/samsung/celoxdcm/proprietary/app/WAPPushManager.apk:system/app/WAPPushManager.apk \
+	vendor/samsung/celoxdcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
 	vendor/samsung/celoxdcm/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/celoxdcm/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/celoxdcm/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
