@@ -19,5 +19,5 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jfltedcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
         vendor/samsung/jfltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
         vendor/samsung/jfltedcm/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
-        vendor/samsung/jfltedcm/proprietary/lib/libril-qc-qmi-1:system/lib/libril-qc-qmi-1 \
+        vendor/samsung/jfltedcm/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
         vendor/samsung/jfltedcm/proprietary/lib/libril.so:system/lib/libril.so
