@@ -17,4 +17,5 @@
 PRODUCT_COPY_FILES += \
         vendor/samsung/jfltedcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
         vendor/samsung/jfltedcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
+        vendor/samsung/jfltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
         vendor/samsung/jfltedcm/proprietary/lib/libril.so:system/lib/libril.so
