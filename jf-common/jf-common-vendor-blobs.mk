@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/samsung/jf-common/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
         vendor/samsung/jf-common/proprietary/lib/libsam.so:system/lib/libsam.so \
+        vendor/samsung/jf-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+        vendor/samsung/jf-common/proprietary/lib/libsensorhubcontext.so:system/lib/libsensorhubcontext.so \
+        vendor/samsung/jf-common/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
         vendor/samsung/jf-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/jf-common/proprietary/lib/hw/sensorhubs.msm8960.so:system/lib/hw/sensorhubs.msm8960.so \
         vendor/samsung/jf-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
