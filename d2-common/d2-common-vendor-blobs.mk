@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
         vendor/samsung/d2-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
         vendor/samsung/d2-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/samsung/d2-common/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
         vendor/samsung/d2-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
         vendor/samsung/d2-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
         vendor/samsung/d2-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
