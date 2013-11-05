@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
+	vendor/samsung/quincydcm/proprietary/app/docomoAccountAuthenticator.apk:system/app/docomoAccountAuthenticator.apk \
+	vendor/samsung/quincydcm/proprietary/lib/libdaaCrypto.so:system/lib/libdaaCrypto.so \
 	vendor/samsung/quincydcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
 	vendor/samsung/quincydcm/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
 	vendor/samsung/quincydcm/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
