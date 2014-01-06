@@ -18,4 +18,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hltedcm/proprietary/lib/libsensirion_h_4.so:system/lib/libsensirion_h_4.so \
 	vendor/samsung/hltedcm/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/hltedcm/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/samsung/hltedcm/proprietary/lib/hw/nfc.MSM8974.so:system/lib/hw/nfc.MSM8974.so \
 	vendor/samsung/hltedcm/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so
