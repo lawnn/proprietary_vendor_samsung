@@ -29,6 +29,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     $(LOCAL_PATH)/proprietary/system/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
     $(LOCAL_PATH)/proprietary/system/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf
