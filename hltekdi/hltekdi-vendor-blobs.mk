@@ -19,3 +19,30 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hltekdi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/hltekdi/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/hltekdi/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so
+
+PRODUCT_COPY_FILES += \
+	vendor/samsung/hltekdi/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
+	vendor/samsung/hltekdi/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
+	vendor/samsung/hltekdi/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
+	vendor/samsung/hltekdi/proprietary/app/FdtpApplication.apk:system/app/FdtpApplication.apk \
+	vendor/samsung/hltekdi/proprietary/app/FdtpMfcAccess.apk:system/app/FdtpMfcAccess.apk \
+	vendor/samsung/hltekdi/proprietary/bin/mfdp:system/bin/mfdp \
+	vendor/samsung/hltekdi/proprietary/bin/mfsc:system/bin/mfsc \
+	vendor/samsung/hltekdi/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+	vendor/samsung/hltekdi/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/air.png:system/etc/felica/air.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/id.png:system/etc/felica/id.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/money.png:system/etc/felica/money.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/train.png:system/etc/felica/train.png \
