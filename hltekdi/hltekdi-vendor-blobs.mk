@@ -16,5 +16,6 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/hltekdi/proprietary/lib/libsensirion_h_12.so:system/lib/libsensirion_h_12.so \
+	vendor/samsung/hltekdi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/hltekdi/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/hltekdi/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so
