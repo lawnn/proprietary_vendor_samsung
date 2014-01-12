@@ -45,4 +45,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hltekdi/proprietary/etc/felica/money.png:system/etc/felica/money.png \
 	vendor/samsung/hltekdi/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
 	vendor/samsung/hltekdi/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
-	vendor/samsung/hltekdi/proprietary/etc/felica/train.png:system/etc/felica/train.png \
+	vendor/samsung/hltekdi/proprietary/etc/felica/train.png:system/etc/felica/train.png
