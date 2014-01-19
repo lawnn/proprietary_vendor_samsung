@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincydcm/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
 	vendor/samsung/quincydcm/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/quincydcm/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
-	vendor/samsung/quincydcm/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
 	vendor/samsung/quincydcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
 	vendor/samsung/quincydcm/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/quincydcm/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
