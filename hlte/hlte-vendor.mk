@@ -17,4 +17,4 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += libtime_genoff
 
-$(call inherit-product, vendor/samsung/hlte-common/hlte-common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/hlte/hlte-vendor-blobs.mk)
