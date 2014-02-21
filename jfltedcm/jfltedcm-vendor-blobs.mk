@@ -44,4 +44,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/train.png:system/etc/felica/train.png \
         vendor/samsung/jfltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
         vendor/samsung/jfltedcm/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/jfltedcm/proprietary/lib/libril.so:system/lib/libril.so
+        vendor/samsung/jfltedcm/proprietary/lib/libril.so:system/lib/libril.so \
+        vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+        vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+        vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
