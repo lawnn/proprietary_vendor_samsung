@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
 	vendor/samsung/jfltedcm/proprietary/app/FdtpApplication.apk:system/app/FdtpApplication.apk \
 	vendor/samsung/jfltedcm/proprietary/app/FdtpMfcAccess.apk:system/app/FdtpMfcAccess.apk \
+	vendor/samsung/jfltedcm/proprietary/app/NfcSony.apk:system/app/NfcSony.apk \
 	vendor/samsung/jfltedcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/jfltedcm/proprietary/bin/mfsc:system/bin/mfsc \
 	vendor/samsung/jfltedcm/proprietary/lib/libcordon.so:system/lib/libcordon.so \
