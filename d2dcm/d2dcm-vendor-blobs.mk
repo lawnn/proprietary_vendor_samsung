@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d2dcm/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
 	vendor/samsung/d2dcm/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
 	vendor/samsung/d2dcm/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
-	vendor/samsung/d2dcm/proprietary/app/FdtpApplication.apk:system/app/FdtpApplication.apk \
-	vendor/samsung/d2dcm/proprietary/app/FdtpMfcAccess.apk:system/app/FdtpMfcAccess.apk \
 	vendor/samsung/d2dcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/d2dcm/proprietary/bin/mfsc:system/bin/mfsc \
 	vendor/samsung/d2dcm/proprietary/lib/libcordon.so:system/lib/libcordon.so \

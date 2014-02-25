@@ -136,5 +136,31 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
         vendor/samsung/d2lte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
         vendor/samsung/d2lte/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/d2lte/proprietary/lib/libril.so:system/lib/libril.so
+        vendor/samsung/d2lte/proprietary/lib/libril.so:system/lib/libril.so \
+        vendor/samsung/d2lte/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
+        vendor/samsung/d2lte/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
+        vendor/samsung/d2lte/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest.apk \
+        vendor/samsung/d2lte/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
+        vendor/samsung/d2lte/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
+        vendor/samsung/d2lte/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
+        vendor/samsung/d2lte/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
+        vendor/samsung/d2lte/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
+        vendor/samsung/d2lte/proprietary/bin/mfdp:system/bin/mfdp \
+        vendor/samsung/d2lte/proprietary/bin/mfsc:system/bin/mfsc \
+        vendor/samsung/d2lte/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/air.png:system/etc/felica/air.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/id.png:system/etc/felica/id.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+        vendor/samsung/d2lte/proprietary/etc/felica/money.png:system/etc/felica/money.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
+        vendor/samsung/d2lte/proprietary/etc/felica/train.png:system/etc/felica/train.png \
+        vendor/samsung/d2lte/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
+        vendor/samsung/d2lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+        vendor/samsung/d2lte/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
 
