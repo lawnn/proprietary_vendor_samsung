@@ -16,4 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+$(call inherit-product, vendor/samsung/hlte/hlte-vendor-blobs.mk)
+
+#for dcm dependencty blobs
 $(call inherit-product, vendor/samsung/hltedcm/hltedcm-vendor-blobs.mk)
+
+
+
