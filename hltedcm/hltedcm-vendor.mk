@@ -20,4 +20,5 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     PPPreference
 
+$(call inherit-product, vendor/samsung/hltedcm/hltedcm-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/hlte/hlte-vendor-blobs.mk)

@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hlte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/hlte/proprietary/vendor/firmware/bcm4339_A0.hcd:system/vendor/firmware/bcm4339_A0.hcd \
 	vendor/samsung/hlte/proprietary/vendor/firmware/bcm4339_semco.hcd:system/vendor/firmware/bcm4339_semco.hcd \
-	vendor/samsung/hlte/proprietary/vendor/firmware/bcm4339_wisol.hcd:system/vendor/firmware/bcm4339_wisol.hcd \
 	vendor/samsung/hlte/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	vendor/samsung/hlte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/samsung/hlte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hlte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/samsung/hlte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/samsung/hlte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-	vendor/samsung/hlte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/hlte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/samsung/hlte/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/samsung/hlte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
