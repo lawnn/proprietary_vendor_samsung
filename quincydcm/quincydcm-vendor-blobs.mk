@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2012 The CyanogenMod Project
+# Copyright (C) 2011-2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,14 +22,11 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/samsung/quincydcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
 	vendor/samsung/quincydcm/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
 	vendor/samsung/quincydcm/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/quincydcm/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
-	vendor/samsung/quincydcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
 	vendor/samsung/quincydcm/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/quincydcm/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/quincydcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
 	vendor/samsung/quincydcm/proprietary/lib/libdhwr.so:system/lib/libdhwr.so \
 	vendor/samsung/quincydcm/proprietary/lib/libdhwrex.so:system/lib/libdhwrex.so \
 	vendor/samsung/quincydcm/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -113,6 +110,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincydcm/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/samsung/quincydcm/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/samsung/quincydcm/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	vendor/samsung/quincydcm/proprietary/etc/firmware/RS_M5LS_OO.bin:system/etc/firmware/RS_M5LS_OO.bin \
 	vendor/samsung/quincydcm/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/quincydcm/proprietary/etc/thermald.conf:system/etc/thermald.conf \
 	vendor/samsung/quincydcm/proprietary/lib/libdsm.so:system/lib/libdsm.so \
