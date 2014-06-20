@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
         vendor/samsung/d2lte/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
         vendor/samsung/d2lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-        vendor/samsung/d2lte/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
         vendor/samsung/d2lte/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/d2lte/proprietary/lib/libakmd.so:system/lib/libakmd.so \
         vendor/samsung/d2lte/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
