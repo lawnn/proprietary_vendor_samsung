@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/js01lte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
 	vendor/samsung/js01lte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
 	vendor/samsung/js01lte/proprietary/lib/libsensirion_h_2.so:system/lib/libsensirion_h_2.so \
+	vendor/samsung/js01lte/proprietary/lib/libsensirion_h_13.so:system/lib/libsensirion_h_13.so \
 	vendor/samsung/js01lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/js01lte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/js01lte/proprietary/bin/efsks:system/bin/efsks \
