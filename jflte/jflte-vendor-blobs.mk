@@ -194,37 +194,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/jflte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-        vendor/samsung/jflte/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
-        vendor/samsung/jflte/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
-        vendor/samsung/jflte/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
-        vendor/samsung/jflte/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
-        vendor/samsung/jflte/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest.apk \
-        vendor/samsung/jflte/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
-        vendor/samsung/jflte/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
-        vendor/samsung/jflte/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
-        vendor/samsung/jflte/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
-        vendor/samsung/jflte/proprietary/app/FdtpApplication.apk:system/app/FdtpApplication.apk \
-        vendor/samsung/jflte/proprietary/app/FdtpMfcAccess.apk:system/app/FdtpMfcAccess.apk \
-        vendor/samsung/jflte/proprietary/app/NfcSony.apk:system/app/NfcSony.apk \
-        vendor/samsung/jflte/proprietary/bin/mfdp:system/bin/mfdp \
-        vendor/samsung/jflte/proprietary/bin/mfsc:system/bin/mfsc \
-        vendor/samsung/jflte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-        vendor/samsung/jflte/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
-        vendor/samsung/jflte/proprietary/etc/felica/air.png:system/etc/felica/air.png \
-        vendor/samsung/jflte/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/id.png:system/etc/felica/id.png \
-        vendor/samsung/jflte/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
-        vendor/samsung/jflte/proprietary/etc/felica/money.png:system/etc/felica/money.png \
-        vendor/samsung/jflte/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
-        vendor/samsung/jflte/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
-        vendor/samsung/jflte/proprietary/etc/felica/train.png:system/etc/felica/train.png \
-        vendor/samsung/jflte/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
-        vendor/samsung/jflte/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/jflte/proprietary/lib/libril.so:system/lib/libril.so \
-        vendor/samsung/jflte/proprietary/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
-        vendor/samsung/jflte/proprietary/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
-        vendor/samsung/jflte/proprietary/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
+
