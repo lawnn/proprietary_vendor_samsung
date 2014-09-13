@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/kltekdi/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
-    vendor/samsung/kltekdi/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0209.0328_K_SPR_VM_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0209.0328_K_SPR_VM_ORC.hcd \
+    vendor/samsung/kltekdi/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0227_K_KDDI_B80_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0227_K_KDDI_B80_ORC.hcd \
     vendor/samsung/kltekdi/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/kltekdi/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/kltekdi/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
