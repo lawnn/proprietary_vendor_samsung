@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltekdi/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/samsung/kltekdi/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/kltekdi/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-    vendor/samsung/kltekdi/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/kltekdi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/kltekdi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/kltekdi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
