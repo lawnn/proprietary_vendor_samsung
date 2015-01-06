@@ -19,9 +19,9 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter js01lte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PPPreference
+LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/PPPreference.apk
+LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
