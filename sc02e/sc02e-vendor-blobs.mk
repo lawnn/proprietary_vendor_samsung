@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_e-pen.kl:system/usr/keylayout/sec_e-pen.kl \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
-    $(LOCAL_PATH)/proprietary/system/etc/apns-conf.xml:system/etc/apns-conf.xml \
     $(LOCAL_PATH)/proprietary/system/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
     $(LOCAL_PATH)/proprietary/system/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
     $(LOCAL_PATH)/proprietary/system/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
