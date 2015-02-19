@@ -77,6 +77,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
     vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
+    vendor/samsung/d2lte/proprietary/blobs/kdi/lib/libril.so:system/blobs/kdi/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/kdi/lib/libsec-ril.so:system/blobs/kdi/lib/libsec-ril.so \
     vendor/samsung/d2lte/proprietary/blobs/r530/lib/libril.so:system/blobs/r530/lib/libril.so \
     vendor/samsung/d2lte/proprietary/blobs/r530/lib/libsec-ril.so:system/blobs/r530/lib/libsec-ril.so \
     vendor/samsung/d2lte/proprietary/blobs/spr/lib/libril.so:system/blobs/spr/lib/libril.so \
