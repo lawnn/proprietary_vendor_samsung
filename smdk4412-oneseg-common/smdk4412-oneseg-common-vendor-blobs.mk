@@ -102,3 +102,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libBroadcastProcObs.so:system/lib/libBroadcastProcObs.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsdtvphmem.so:system/lib/libsdtvphmem.so \
     $(LOCAL_PATH)/proprietary/system/lib/libOneSegfactorytest_jni.so:system/lib/libOneSegfactorytest_jni.so
+
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_SoundAlive_SpectrumView.so:system/lib/lib_SoundAlive_SpectrumView.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_SoundAlive_ver118s.so:system/lib/lib_SoundAlive_ver118s.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsoundalive.so:system/lib/libsoundalive.so
+
+
