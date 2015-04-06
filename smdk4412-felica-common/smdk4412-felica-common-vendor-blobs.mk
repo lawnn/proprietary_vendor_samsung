@@ -15,6 +15,10 @@
 LOCAL_PATH := vendor/samsung/smdk4412-felica-common
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/sbin/felica_init.sh:root/sbin/felica_init.sh \
+    $(LOCAL_PATH)/proprietary/init.carrier.rc:root/init.carrier.rc
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
     $(LOCAL_PATH)/proprietary/system/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
     $(LOCAL_PATH)/proprietary/system/app/FeliCaRemoteLock3LM.apk:system/app/FeliCaRemoteLock3LM.apk \
