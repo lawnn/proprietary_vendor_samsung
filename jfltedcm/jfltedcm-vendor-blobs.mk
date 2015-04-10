@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jfltedcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
 	vendor/samsung/jfltedcm/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
 	vendor/samsung/jfltedcm/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
+	vendor/samsung/jfltedcm/proprietary/app/FeliCaRemoteLock3LM.apk:system/app/FeliCaRemoteLock3LM.apk \
 	vendor/samsung/jfltedcm/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest.apk \
 	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
 	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
@@ -27,6 +28,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/app/FdtpApplication.apk:system/app/FdtpApplication.apk \
 	vendor/samsung/jfltedcm/proprietary/app/FdtpMfcAccess.apk:system/app/FdtpMfcAccess.apk \
 	vendor/samsung/jfltedcm/proprietary/app/NfcSony.apk:system/app/NfcSony.apk \
+	vendor/samsung/jfltedcm/proprietary/app/NfcTest.apk:system/app/NfcTest.apk \
 	vendor/samsung/jfltedcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/jfltedcm/proprietary/bin/mfsc:system/bin/mfsc \
 	vendor/samsung/jfltedcm/proprietary/lib/libcordon.so:system/lib/libcordon.so \
