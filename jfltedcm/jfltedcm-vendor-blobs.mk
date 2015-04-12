@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/app/NfcSony.apk:system/app/NfcSony.apk \
 	vendor/samsung/jfltedcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/jfltedcm/proprietary/bin/mfsc:system/bin/mfsc \
+	vendor/samsung/jfltedcm/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/air.png:system/etc/felica/air.png \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
