@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
 
 # nfc
 PRODUCT_COPY_FILES += \
-	vendor/samsung/jfltedcm/proprietary/app/NfcSony.apk:system/app/NfcSony/NfcSony.apk \
 	vendor/samsung/jfltedcm/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
 	vendor/samsung/jfltedcm/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
 	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
