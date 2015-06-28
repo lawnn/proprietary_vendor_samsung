@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter klte kltechnduo kltechnduo kltedv kltespr klteusc kltevzw kltekdi,$(TARGET_DEVICE)),)
+ifneq ($(filter klte kltechn kltechnduo kltedv kltekdi kltespr klteusc kltevzw,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
