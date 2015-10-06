@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),klte)
+ifeq ($(TARGET_DEVICE),klte kltedcm)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
