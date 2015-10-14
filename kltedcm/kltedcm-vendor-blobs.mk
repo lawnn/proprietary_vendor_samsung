@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/kltedcm/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
 	vendor/samsung/kltedcm/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
 	vendor/samsung/kltedcm/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+	vendor/samsung/kltedcm/proprietary/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
 	vendor/samsung/kltedcm/proprietary/lib/libcordon.so:system/lib/libcordon.so
 
 ## nfc
