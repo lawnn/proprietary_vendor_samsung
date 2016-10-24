@@ -16,4 +16,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += \
+    FeliCaLock
+
 $(call inherit-product, vendor/samsung/js01lte-felica/js01lte-felica-vendor-blobs.mk)
