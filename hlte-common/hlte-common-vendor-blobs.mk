@@ -319,11 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/hlte-common/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
-    vendor/samsung/hlte-common/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-    vendor/samsung/hlte-common/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-    vendor/samsung/hlte-common/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-    vendor/samsung/hlte-common/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
     vendor/samsung/hlte-common/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
