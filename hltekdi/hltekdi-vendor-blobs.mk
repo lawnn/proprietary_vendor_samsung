@@ -31,3 +31,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltekdi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/hltekdi/proprietary/lib/libsensirion_h_12.so:system/lib/libsensirion_h_12.so \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd
+
+# SONY NFC
+PRODUCT_COPY_FILES += \
+	vendor/samsung/hltekdi/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+	vendor/samsung/hltekdi/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+	vendor/samsung/hltekdi/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+	vendor/samsung/hltekdi/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+	vendor/samsung/hltekdi/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+	vendor/samsung/hltekdi/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+	vendor/samsung/hltekdi/proprietary/bin/mfdp:system/bin/mfdp \
+	vendor/samsung/hltekdi/proprietary/bin/mfsc:system/bin/mfsc \
+	vendor/samsung/hltekdi/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+	vendor/samsung/hltekdi/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg
