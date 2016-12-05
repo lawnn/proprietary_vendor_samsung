@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltekdi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/hltekdi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/hltekdi/proprietary/lib/libsensirion_h_12.so:system/lib/libsensirion_h_12.so \
-    vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd
+    vendor/samsung/hltekdi/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd
 
 # SONY NFC
 PRODUCT_COPY_FILES += \
