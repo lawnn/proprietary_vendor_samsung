@@ -30,4 +30,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/hltedcm/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/hltedcm/proprietary/lib/libsensirion_h_11.so:system/lib/libsensirion_h_11.so \
-    vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd
+    vendor/samsung/hltedcm/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd
