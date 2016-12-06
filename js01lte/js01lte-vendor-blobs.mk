@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/js01lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/js01lte/proprietary/lib/libsensirion_h_13.so:system/lib/libsensirion_h_13.so \
-    vendor/samsung/sc02f/proprietary/vendor/firmware/bcm4335_V0105.0607.hcd:system/vendor/firmware/bcm4335_V0105.0607.hcd
+    vendor/samsung/js01lte/proprietary/vendor/firmware/bcm4335_V0105.0607.hcd:system/vendor/firmware/bcm4335_V0105.0607.hcd
 
 ## FeliCa
 PRODUCT_COPY_FILES += \
